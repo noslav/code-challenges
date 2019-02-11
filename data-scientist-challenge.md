@@ -37,7 +37,7 @@ There are two ways in which you can interact with Ethereum's BigQuery DB.
    export GOOGLE_APPLICATION_CREDENTIALS="/your/path/to/gcp_credentials.json"
    ```
    Done! You should be able to make queries on the Ethereum BigQuery database. Try it out by
-   executing the query in the attached notebook. Make sure you have the BigQuery Client library for
+   executing the query in the [attached notebook](bigquery-sql-example.ipynb). Make sure you have the BigQuery Client library for
    Python installed (run `pip install --upgrade google-cloud-bigquery ` first).
 
 2. You can also use [Kaggle's public dataset BigQuery
