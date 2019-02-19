@@ -28,10 +28,12 @@ Database](https://console.cloud.google.com/marketplace/details/bigquery-public-d
 There are two ways in which you can interact with Ethereum's BigQuery DB.
 
 1. If you have a Google Cloud Platform account, or you set one up, you can interact with the
-   database directly. In order to be able to query data from BigQuery, you need to authenticate.
-   Simply go to your GCP project, select `APIs & Services > Credentials > Create credentials > Service
-   account key > New service account`. Create a service account with a role that let's you query BigQuery data
-   (e.g. `BigQuery Data Viewer`) and download the key as JSON. Then simply define an environment
+   database directly.
+   
+   In order to be able to query data from BigQuery, you need to authenticate.
+   Simply go to your GCP project, and firat select  `APIs & Services > Dashboard > Enable APIs and Services`. There,
+   search for BigQuery DB and click on `Manage`. Once enabled head to `APIs & Services > Credentials > Create credentials > Service account key > New service account`. Create a service account with a role that let's you query BigQuery data
+   (e.g. `BigQuery Data Admin`) and download the key as JSON. Then simply define an environment
    variable that points to the JSON file, e.g. 
    ```
    export GOOGLE_APPLICATION_CREDENTIALS="/your/path/to/gcp_credentials.json"
