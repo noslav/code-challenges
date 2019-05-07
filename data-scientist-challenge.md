@@ -94,7 +94,7 @@ A couple of things to consider:
 
 - Is there a correlation between the features and the target variable?
 - Is there any feature that works better as a predictor as compared to the others?
-- The time resolution of the dataset is 5min. Can we improve predictions by looking at a more
+- The time resolution of the dataset is 1h. Can we improve predictions by looking at a more
   coarse resolution?
 
 ## What we care about
